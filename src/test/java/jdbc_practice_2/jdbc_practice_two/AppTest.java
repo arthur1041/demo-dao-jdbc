@@ -12,10 +12,17 @@ import org.junit.Test;
 
 import db.DB;
 import db.exceptions.DbIntegrityException;
+import db.model.entities.Department;
 
 public class AppTest {
 
 	@Test
+	public void test() {
+		Department obj = new Department(1, "Books");
+		System.out.println(obj);
+	}
+	
+//	@Test
 	public void apagandoDados() {
 		Connection connection = null;
 		PreparedStatement statement = null;
