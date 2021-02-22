@@ -13,8 +13,8 @@ import org.junit.Test;
 
 import db.DB;
 import db.exceptions.DbIntegrityException;
-import db.model.entities.Department;
-import db.model.entities.Seller;
+import model.entities.Department;
+import model.entities.Seller;
 
 public class AppTest {
 
