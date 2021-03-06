@@ -13,11 +13,7 @@ import org.junit.Test;
 
 import db.DB;
 import db.exceptions.DbIntegrityException;
-import model.dao.DaoFactory;
-import model.dao.GenericDao;
-import model.dao.impl.SellerDaoImpl;
 import model.entities.Department;
-import model.entities.Entity;
 import model.entities.Seller;
 
 public class AppTest {
@@ -25,6 +21,7 @@ public class AppTest {
 	@Test
 	public void test() {
 		Department dep = new Department(1, "Books");
+		
 	}
 	
 //	@Test
